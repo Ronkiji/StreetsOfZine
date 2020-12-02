@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    height: 65vh;
+    min-height: 600px;
+    background: url("assets/Blurred-Cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.logo {
+    width: 18%;
+    position: relative;
+    min-width: 200px;
+    padding: 150px 0;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+
+    position: absolute;
+    bottom: 870px;
+    left: 100px;
+}
+
+nav a {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 22px;
+    margin-right: 17px;
+}
+
+nav a img {
+    width: 35px;
+    position: relative;
+    top: 7.5px; /* change */
+}
+
