@@ -9,12 +9,13 @@ nav {
     height: 80px;
     background-color: white;
     position: fixed;
+    top: 0px;
 }   
 
 nav .cat {
     height: 50px;
     position: relative;
-    top: 15px;
+    top: 14px;
     left: 20px;
 }
 
@@ -41,15 +42,78 @@ nav div a img {
 .banner {
     z-index: -99;
     position: relative;
-    top: 80px;
-}
+    top: 64px;
+    text-decoration: none;
+    left: -40px;
+  }
+
+  .banner li {
+    position: absolute;
+  }
+
+  .banner li img {
+      width: 102.15%;
+  }
+
+  li:nth-child(10) {
+    animation: crossfade 50s 0s infinite;
+  }
+
+  li:nth-child(9) {
+    animation: crossfade 50s 5s infinite;
+  }
+
+  li:nth-child(8) {
+    animation: crossfade 50s 10s infinite;
+  }
+  
+  li:nth-child(7) {
+    animation: crossfade 50s 15s infinite;
+  }
+  
+  li:nth-child(6) {
+    animation: crossfade 50s 20s infinite;
+  }
+
+  li:nth-child(5) {
+    animation: crossfade 50s 25s infinite;
+  }
+  
+  li:nth-child(4) {
+    animation: crossfade 50s 30s infinite;
+  } 
+
+  li:nth-child(3) {
+    animation: crossfade 50s 35s infinite;
+  }
+
+  li:nth-child(2) {
+    animation: crossfade 50s 40s infinite;
+  }
+
+  li:nth-child(1) {
+    animation: crossfade 50s 45s infinite;
+  }
+
+  @keyframes crossfade{
+    17% {
+        opacity:1;
+      }
+      25% {
+        opacity:0;
+      }
+      92% {
+        opacity:0;
+      }
+  }
 
 .bannercat {
-    width: 300px;
+    z-index: 999999999;
+    width: 250px;
     margin: auto;
 
     position: relative;
-    bottom: 425px;
+    top: 250px;
 }
 
 .bannercat img {
