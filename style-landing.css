@@ -35,7 +35,9 @@ html, body {
     font-weight: 800;
     font-size: 50px;
     text-align: center;
+  }
 
+  .pos1 {
     position: relative;
     top: 740px;
   }
@@ -46,7 +48,9 @@ html, body {
     background-color: black;
 
     margin: auto;
+  }
 
+  .pos2 {
     position: relative;
     top: 725px;
   }
@@ -107,8 +111,23 @@ html, body {
     background-image: url(assets/InTheStreetsOfJapan6.png); 
   }
 
+  .div2 {
+    position: relative;
+    top: 790px;
+  }
+
+  .pos3 {
+    position: relative;
+    top: 800px;
+  }
+
+  .pos4 {
+    position: relative;
+    top: 790px;
+  }
+
   @media only screen and (max-width: 1200px){
-    .banner li img {
+    .banner img {
       height: 500px;
     }
     
@@ -148,10 +167,18 @@ html, body {
     .rect {
       top: 540px;
     }
+
+    .pos3 {
+      top: 620px;
+    }
+  
+    .pos4 {
+      top: 610px;
+    }
   }
 
   @media only screen and (max-width: 900px){
-    .banner li img {
+    .banner img {
       height: 400px;
     }
     
@@ -193,10 +220,18 @@ html, body {
     .rect {
       top: 430px;
     }
+
+    .pos3 {
+      top: 490px;
+    }
+  
+    .pos4 {
+      top: 480px;
+    }
   }
 
   @media only screen and (max-width: 720px){  
-    .banner li img {
+    .banner img {
       height: 300px;
     }
     
@@ -234,5 +269,13 @@ html, body {
   
     .rect {
       top: 330px;
+    }
+
+    .pos3 {
+      top: 380px;
+    }
+  
+    .pos4 {
+      top: 370px;
     }
   }

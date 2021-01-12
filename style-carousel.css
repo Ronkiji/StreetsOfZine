@@ -1,27 +1,157 @@
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box; 
+}
 
-body { font-family: sans-serif; }
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+  scroll-behavior: smooth;
+}
 
 .carousel {
-  background: #EEE;
+  position: relative;
+  top: 845px;
+  background-color: white;
 }
 
 .carousel-cell {
-  width: 66%;
-  height: 200px;
+  width: 450px;
+  height: 450px;
+  margin-right: 50px;
+  border-radius: 9999px;
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.carousel-cell a {
+  text-decoration: none;
+  color: black;
+}
+
+.carousel-cell h3 {
+  font-size: 40px;
+  font-weight: 700;
+
+  position: relative;
+  top: 425px;
+}
+
+.carousel-cell span {
+  font-size: 20px;
+  font-weight: 800;
+
+  position: relative;
+  top: 386px;
+}
+
+.carousel-cell img {
+  width: 22px;
   margin-right: 10px;
-  background: #8C8;
-  border-radius: 5px;
-  counter-increment: carousel-cell;
+  vertical-align: middle;
+
+  position: relative;
+  top: -3px;
 }
 
 /* cell number */
 .carousel-cell:before {
   display: block;
   text-align: center;
-  content: counter(carousel-cell);
   line-height: 200px;
   font-size: 80px;
   color: white;
+}
+
+.carousel-cell:not(.is-selected){
+  filter: grayscale(1) blur(5px);
+  transform: scale(0.8); 
+  transform-origin: center;
+}
+
+.carousel-cell:not(.is-selected) h2 {
+  visibility: hidden;
+}
+
+.bg {
+  background-size: 450px 450px;
+}
+
+.bg1 {
+  background-image: url(assets/Cindy2.png);
+}
+
+.bg2 {
+  background-image: url(assets/Sunvitamin.png);
+}
+
+.bg3 {
+  background-image: url(assets/Mon2.png);
+}
+
+.bg4 {
+  background-image: url(assets/pinlinz.png);
+}
+
+.bg5 {
+  background-image: url(assets/helax.png);
+}
+
+.bg6 {
+  background-image: url(assets/nadaskii.png);
+}
+
+@media only screen and (max-width: 1200px){
+  .carousel {
+    top: 655px;
+  }
+
+  .carousel-cell {
+    width: 430px;
+    height: 430px;
+    background-size: 430px 430px;
+    margin-bottom: 70px;
+  }
+
+  .carousel-cell h3 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .carousel {
+    top: 515px;
+  }
+
+  .carousel-cell {
+    width: 400px;
+    height: 400px;
+    background-size: 400px 400px;
+  }
+
+  .carousel-cell h3 {
+    position: relative;
+    top: 390px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 720px){
+  .carousel {
+    top: 400px;
+  }
+
+  .carousel-cell {
+    width: 350px;
+    height: 350px;
+    background-size: 350px 350px;
+  }
+
+  .carousel-cell h3 {
+    font-size: 30px;
+
+    position: relative;
+    top: 340px;
+  }
 }
