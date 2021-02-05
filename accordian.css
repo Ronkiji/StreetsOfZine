@@ -78,7 +78,7 @@
 	 font-size: 18px;
 }
  .accordion ul li:nth-child(1) {
-	 background: url("assets/renren.png") center left no-repeat;
+	 background: url("assets/renren-landing.png") center left no-repeat;
 	 background-size: 100vw;
 }
  .accordion ul li:nth-child(2) {

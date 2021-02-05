@@ -1,0 +1,1069 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.itsoj-logo-container {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.itsoj-logo-container i{
+    position: relative;
+    top: 22px;
+    color: rgb(150, 150, 150);
+    font-size: 25px;
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+.itsoj-logo-container i:hover{
+    color: rgb(160, 160, 160);
+    transition: 0.3s all;
+}
+
+.itsoj-logo {
+    width: 250px;
+    height: auto;
+    text-align: center; 
+}
+
+.art-piece {
+    width: 1224px;
+    height: 720px;
+    background-color: black;
+
+    position: relative;
+    top: 150px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.cover {
+    margin: 0 auto;
+    height: 504px;
+}
+
+.art-piece div {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+
+    cursor: default;
+}
+
+#ciadiv {
+    position: absolute;
+    bottom: 10px;
+}
+
+.art-piece img {
+    height: 100px;
+    display: inline-block;
+}
+
+/* .foreword {
+    text-align: center;
+
+    position: relative;
+    top: 175px;
+}
+
+.foreword img {
+    margin: auto;
+    width: 350px;
+}
+
+p {
+    width: 800px;
+    height: 450px;
+    text-align: center;
+    margin: auto;
+
+    font-size: 20px;
+    line-height: 33px;
+
+    position: relative;
+    top: 50px;
+} */
+
+.art-piece .artist-name {
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 45px; 
+
+    position: relative;
+    bottom: 40px;
+    left: 25px;
+}
+
+.art-piece a{
+    display: inline-block;
+
+    position: absolute;
+    left: 130px;
+    top: 70px;
+
+    width: 150px;
+
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.art-piece .soc2 {
+    position: absolute;
+    width: 100%;
+}
+
+.art-piece a span{
+    color: white;
+    position: relative;
+    bottom: 2px;
+    font-size: 18px;
+}
+
+.art-piece a img {
+    height: 15px;
+    margin-right: 8px;
+}
+
+.cover div {
+    position: absolute;
+    bottom: 25px;
+}
+
+#ciatoru1-itsoj {
+    background: url("assets/ITSOJ\ FINALS/cover.png") center center no-repeat;
+    background-size: contain;
+}
+
+#cia2 {
+    left: 220px;
+}
+
+#jomo-itsoj {
+    background: url("assets/ITSOJ\ FINALS/jomo-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#sabi-itsoj {
+    background: url("assets/ITSOJ\ FINALS/sabimilia-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#sabi2 {
+    left: 240px;
+}
+
+#renren-itsoj {
+    background: url("assets/ITSOJ\ FINALS/renren-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#ren2 {
+    left: 255px;
+}
+
+#cindy-itsoj {
+    background: url("assets/ITSOJ\ FINALS/Cindy-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#cindy2 {
+    left: 275px;
+}
+
+#overine-itsoj {
+    background: url("assets/ITSOJ\ FINALS/overine-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#overine2 {
+    left: 250px;
+}
+
+#rollround-itsoj {
+    background: url("assets/ITSOJ\ FINALS/rollround-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#rollround2 {
+    left: 245px;
+}
+
+#zaccr-itsoj {
+    background: url("assets/ITSOJ\ FINALS/zaccr-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#kiron-itsoj {
+    background: url("assets/ITSOJ\ FINALS/Kiron-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#kiron2 {
+    left: 245px;
+}
+
+#jellie-itsoj {
+    background: url("assets/ITSOJ\ FINALS/jellie-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#jellie2 {
+    left: 250px;
+}
+
+#jojo-itsoj {
+    background: url("assets/ITSOJ\ FINALS/jojo-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#jojo2 {
+    left: 240px;
+}
+
+#tutank-itsoj {
+    background: url("assets/ITSOJ\ FINALS/tutank-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#tutank2 {
+    left: 245px;
+}
+
+#lynn-itsoj {
+    background: url("assets/ITSOJ\ FINALS/lynn-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#lynn2 {
+    left: 253px;
+}
+
+#skam-itsoj {
+    background: url("assets/ITSOJ\ FINALS/skam-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#skam2 {
+    left: 275px;
+}
+
+#leo-itsoj {
+    background: url("assets/ITSOJ\ FINALS/leo-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#leo2 {
+    left: 270px;
+}
+
+#soojin-itsoj {
+    background: url("assets/ITSOJ\ FINALS/soojin-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#britney-itsoj {
+    background: url("assets/ITSOJ\ FINALS/britney-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#britney2 {
+    left: 270px;
+}
+
+#mon-itsoj {
+    background: url("assets/ITSOJ\ FINALS/mon-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#mon2 {
+    left: 250px;
+}
+
+#carolina-itsoj {
+    background: url("assets/ITSOJ\ FINALS/carolina-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#coco-itsoj {
+    background: url("assets/ITSOJ\ FINALS/coco-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#coco2 {
+    left: 250px;
+}
+
+#mina-itsoj {
+    background: url("assets/ITSOJ\ FINALS/mina-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#mina2 {
+    left: 235px;
+}
+
+#kirvia-itsoj {
+    background: url("assets/ITSOJ\ FINALS/kirvia-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#kirvia2 {
+    left: 210px;
+}
+
+#weiwei-itsoj {
+    background: url("assets/ITSOJ\ FINALS/weiwei-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#weiwei2 {
+    left: 280px;
+}
+
+#mio-itsoj {
+    background: url("assets/ITSOJ\ FINALS/mio-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#mio2 {
+    left: 243px;
+}
+
+#sel-itsoj {
+    background: url("assets/ITSOJ\ FINALS/sel-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#sel2 {
+    left: 243px;
+}
+
+#bernice-itsoj {
+    background: url("assets/ITSOJ\ FINALS/bernice-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#bernice2 {
+    left: 270px;
+}
+
+#benson-itsoj {
+    background: url("assets/ITSOJ\ FINALS/benson-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#benson2 {
+    left: 270px;
+}
+
+#rinska-itsoj {
+    background: url("assets/ITSOJ\ FINALS/rinska-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#rinska2 {
+    left: 228px;
+}
+
+#tangan-itsoj {
+    background: url("assets/ITSOJ\ FINALS/tangan-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#tangan2 {
+    left: 273px;
+}
+
+#jenna-itsoj {
+    background: url("assets/ITSOJ\ FINALS/jenna-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#jenna2 {
+    left: 273px;
+}
+
+#pio-itsoj {
+    background: url("assets/ITSOJ\ FINALS/pio-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#pio2 {
+    left: 255px;
+}
+
+#sockfinch-itsoj {
+    background: url("assets/ITSOJ\ FINALS/sockfinch-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#sockfinch2 {
+    left: 243px;
+}
+
+#pinlinz-itsoj {
+    background: url("assets/ITSOJ\ FINALS/pinlinz-itsoj.png") center center no-repeat;
+    background-size: contain;
+}
+
+#pinlinz2 {
+    left: 220px;
+}
+
+.credits-container {
+    position: relative;
+    top: 220px;
+    text-align: center;
+}
+
+.col {
+    display: inline-block;
+}
+
+.credits {
+    margin-bottom: 20px;
+    text-align: left;
+
+    position: relative;
+    left: 22px;
+}
+
+.left {
+    margin-right: 50px;
+}
+
+.preview {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.text-container {
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+    bottom: 10px;
+}
+
+.credits h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+
+.credits div .space {
+    margin-right: 10px;
+}
+
+.credits div a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.credits div span {
+    position: relative;
+    bottom: 4px;
+    color: black;    
+}
+
+.credits div img {
+    width: 18px;
+    margin-right: 8px;
+}
+
+.pre-ciatoru {
+    background-image: url("assets/ITSOJ\ FINALS/cover-preview.png");
+    background-size: contain;
+}
+
+.pre-jomo {
+    background: url("assets/ITSOJ\ FINALS/jomo-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-renren {
+    background: url("assets/ITSOJ\ FINALS/renren-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-cindy {
+    background: url("assets/ITSOJ\ FINALS/cindy-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-overine {
+    background: url("assets/ITSOJ\ FINALS/overine-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-rollround {
+    background: url("assets/ITSOJ\ FINALS/rollround-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-renren {
+    background: url("assets/ITSOJ\ FINALS/renren-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-zaccr {
+    background: url("assets/ITSOJ\ FINALS/zaccr-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-kiron {
+    background: url("assets/ITSOJ\ FINALS/kiron-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-jellie {
+    background: url("assets/ITSOJ\ FINALS/jellie-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-jojo {
+    background: url("assets/ITSOJ\ FINALS/jojo-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-tutank {
+    background: url("assets/ITSOJ\ FINALS/tutank-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-lynn {
+    background: url("assets/ITSOJ\ FINALS/lynn-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-skam {
+    background: url("assets/ITSOJ\ FINALS/skam-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-leo {
+    background: url("assets/ITSOJ\ FINALS/leo-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-soojin {
+    background: url("assets/ITSOJ\ FINALS/soojin-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-britney {
+    background: url("assets/ITSOJ\ FINALS/britney-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-mon {
+    background: url("assets/ITSOJ\ FINALS/mon-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-carolina {
+    background: url("assets/ITSOJ\ FINALS/carolina-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-coco {
+    background: url("assets/ITSOJ\ FINALS/coco-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-mina {
+    background: url("assets/ITSOJ\ FINALS/mina-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-sabimilia {
+    background: url("assets/ITSOJ\ FINALS/sabimilia-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-kirvia {
+    background: url("assets/ITSOJ\ FINALS/kirvia-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-weiwei {
+    background: url("assets/ITSOJ\ FINALS/weiwei-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-mio {
+    background: url("assets/ITSOJ\ FINALS/mio-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-sel {
+    background: url("assets/ITSOJ\ FINALS/sel-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-bernice {
+    background: url("assets/ITSOJ\ FINALS/bernice-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-benson {
+    background: url("assets/ITSOJ\ FINALS/benson-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-rinska {
+    background: url("assets/ITSOJ\ FINALS/rinska-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-tangan {
+    background: url("assets/ITSOJ\ FINALS/tangan-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-jenna {
+    background: url("assets/ITSOJ\ FINALS/jenna-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-pio {
+    background: url("assets/ITSOJ\ FINALS/pio-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-sockfinch {
+    background: url("assets/ITSOJ\ FINALS/sockfinch-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-pinlinz {
+    background: url("assets/ITSOJ\ FINALS/pinlinz-itsoj-preview.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-saikpaii {
+    background: url("assets/ITSOJ\ FINALS/saikpaii.png") center center no-repeat;
+    background-size: contain;
+}
+
+.pre-bird {
+    background: url("assets/birdeatfish-doodle.png") center center no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+
+    /* background: url(assets/jenna\ vincent.png) center bottom no-repeat; */
+
+    position: relative;
+    top: 300px;
+
+    text-align: center;
+}
+
+footer .cat-banner{
+    width: auto;
+    height: 90px;
+    
+    position: relative; 
+    top: 18px;
+
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1350px){
+    
+    .art-piece {
+        top: 140px;
+        width: 1024px;
+        height: 520px;
+        margin-top: 45px;
+    }
+
+    .cover {
+        height: 364px;
+        margin-top: 0;
+        bottom: 50px;
+    }
+
+    .art-piece div {
+        left: 125px;
+    }
+
+    .art-piece .artist-name {
+        font-size: 30px; 
+    }
+
+    .credits h2 {
+        font-size: 23px;
+    }
+    
+    .credits div a {
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    .credits div img {
+        width: 15px;
+    }
+
+    .preview {
+        width: 80px;
+        height: 80px;
+    }
+
+    .left {
+        margin-right: 30px;
+    }
+
+    .text-container {
+        position: relative;
+        bottom: 4px;
+    }
+
+    h1 {
+        top: 225px;
+    }
+
+    footer {
+        top: 250px;
+    }
+    
+}
+
+@media only screen and (max-width: 1170px){
+
+    .art-piece {
+        top: 140px;
+        width: 924px;
+        height: 420px;
+        margin-top: 45px;
+    }
+
+    .cover {
+        height: 294px;
+        margin-top: 0;
+        bottom: 50px;
+    }
+
+    .col {
+        display: block;
+    }
+   
+    .credits-container {
+        position: relative;
+        top: 220px;
+        text-align: center;
+    }
+
+    .col {
+        display: inline-block;
+    }
+
+    .credits {
+        margin-bottom: 20px;
+        text-align: left;
+
+        position: relative;
+        left: 22px;
+    }
+
+    .left {
+        margin-right: 71px;
+    }
+
+    .preview {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+    }
+
+    .text-container {
+        display: inline-block;
+        margin-left: 15px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .credits h2 {
+        font-size: 30px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        font-weight: 800;
+    }
+
+    .credits div .space {
+        margin-right: 10px;
+    }
+
+    .credits div a {
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .credits div span {
+        position: relative;
+        bottom: 4px;
+        color: black;    
+    }
+
+    .credits div img {
+        width: 18px;
+        margin-right: 8px;
+    }
+}
+
+@media only screen and (max-width: 1050px){
+
+    .art-piece {
+        top: 140px;
+        width: 774px;
+        height: 370px;
+        margin-top: 45px;
+    }
+
+    .cover {
+        height: 259px;
+        margin-top: 0;
+        bottom: 50px;
+    }
+
+    .art-piece div {
+        left: 90px;
+        bottom: 5px;
+        margin-right: 0px;
+    }
+
+    .art-piece .artist-name {
+        font-size: 20px; 
+    }
+    
+    .credits-container {
+        position: relative;
+        top: 220px;
+        text-align: center;
+    }
+
+    .credits h2 {
+        font-size: 23px;
+    }
+    
+    .credits div a {
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    .credits div img {
+        width: 15px;
+    }
+
+    .preview {
+        width: 80px;
+        height: 80px;
+    }
+
+    .text-container {
+        position: relative;
+        bottom: 4px;
+    }
+
+    .col {
+        display: inline-block;
+    }
+
+    .left {
+        margin-right: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 840px){
+
+    .itsoj-logo {
+        width: 200px;
+    }
+
+    .art-piece {
+        top: 135px;
+        width: 400px;
+        height: 270px;
+        margin-top: 5px;
+    }
+
+    .cover {
+        height: 170px;
+        margin-top: 0;
+        bottom: 50px;
+    }
+
+    .art-piece div {
+        left: 10px;
+        bottom: 20px;
+    }
+
+    .credits h2 {
+        font-size: 23px;
+    }
+    
+    .credits div a {
+        font-size: 11px;
+        text-decoration: none;
+    }
+
+    .art-piece .soc2 {
+        position: absolute;
+        width: 160px;
+    }
+
+    .art-piece a span {
+        font-size: 13px; 
+    }
+
+    .art-piece a img {
+        width: 14px;
+        height: auto;
+    }
+
+    .credits {
+        bottom: 90px;
+    }
+
+    h1 {
+        top: 120px;
+        font-size: 23px;
+    }
+
+    footer {
+        top: 135px;
+    }
+
+    #cia2 {
+        left: 205px;
+    }
+    
+    #sabi2 {
+        left: 215px;
+    }
+    
+    #ren2 {
+        left: 234px;
+    }
+    
+    #cindy2 {
+        left: 245px;
+    }
+    
+    #overine2 {
+        left: 225px;
+    }
+    
+    #rollround2 {
+        left: 218px;
+    }
+    
+    #kiron2 {
+        left: 220px;
+    }
+    
+    #jellie2 {
+        left: 228px;
+    }
+    
+    #jojo2 {
+        left: 215px;
+    }
+    
+    #tutank2 {
+        left: 220px;
+    }
+    
+    #lynn2 {
+        left: 228px;
+    }
+    
+    #skam2 {
+        left: 240px;
+    }
+    
+    #leo2 {
+        left: 240px;
+    }
+    
+    #britney2 {
+        left: 235px;
+    }
+    
+    #mon2 {
+        left: 225px;
+    }
+
+    #coco2 {
+        left: 225px;
+    }
+    
+    #mina2 {
+        left: 210px;
+    }
+    
+    #kirvia2 {
+        left: 195px;
+    }
+    
+    #weiwei2 {
+        left: 245px;
+    }
+    
+    #mio2 {
+        left: 218px;
+    }
+    
+    #sel2 {
+        left: 220px;
+    }
+    
+    #bernice2 {
+        left: 240px;
+    }
+    
+    #rinska2 {
+        left: 208px;
+    }
+    
+    #tangan2 {
+        left: 240px;
+    }
+    
+    #jenna2 {
+        left: 240px;
+    }
+    
+    #pio2 {
+        left: 225px;
+    }
+    
+    #sockfinch2 {
+        left: 220px;
+    }
+    
+    #pinlinz2 {
+        left: 205px;
+    }
+}

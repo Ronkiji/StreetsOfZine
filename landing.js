@@ -14,13 +14,13 @@ $(document).ready(function (){
     if(index != 0){
       $(element).css("opacity","0");
       setTimeout(function(){
-        doAnimationLoop(element,fadeTime, visibleTime, fadeTime*3, animDelay);
+        doAnimationLoop(element,fadeTime, visibleTime, fadeTime, animDelay);
       },visibleTime*index + fadeTime*(index-1));
     }else{
       setTimeout(function(){
         $(element).animate({opacity:0},fadeTime, function(){
           setTimeout(function(){
-            doAnimationLoop(element,fadeTime, visibleTime, fadeTime*3, animDelay);
+            doAnimationLoop(element,fadeTime, visibleTime, fadeTime, animDelay);
           },animDelay )
         });
       },visibleTime);
