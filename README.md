@@ -1,2 +1,2 @@
 # StreetsOfZine
-Visual Studio Test
+StreetsOfZine
