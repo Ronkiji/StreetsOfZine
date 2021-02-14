@@ -6,13 +6,13 @@
 }
  .accordion {
 	 width: 100%;
-	 max-width: 80vw;
+	 width: 1250px;
 	 height: 600px;
 	 overflow: hidden;
 	 margin: 50px auto;
 
 	 position: relative;
-	 top: 890px;
+	 top: 385px;
 }
  .accordion ul {
 	 width: 100%;
@@ -128,11 +128,12 @@
 	 transform: translateX(0);
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1400px){
 	.accordion {
 		position: relative;
-		top: 690px;
+		top: 140px;
 		height: 500px;
+		width: 1040px;
 	}
 
 	.accordion ul li div a h2 {
@@ -152,17 +153,34 @@
    }
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1225px){
 	.accordion {
 		position: relative;
-		top: 540px;
+		top: 140px;
+		width: 989px;
 	}
 }
 
-@media only screen and (max-width: 720px){ 
+@media only screen and (max-width: 1016px) {
+	.accordion {
+		top: 95px;
+		width: 85vw;
+		height: 500px;
+	}
+
+	.accordion ul li div a h2 {
+		font-size: 50px;
+   }
+
+   .accordion ul li div a p {
+	top: 310px;
+}
+}
+
+@media only screen and (max-width: 750px){ 
 	.accordion {
 		position: relative;
-		top: 410px;
+		top: 60px;
 		height: 400px;
 	}
 

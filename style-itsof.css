@@ -1,0 +1,1413 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.itsof-logo-container {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.itsof-logo-container i{
+    position: relative;
+    top: 22px;
+    color: rgb(150, 150, 150);
+    font-size: 25px;
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+.itsof-logo-container i:hover{
+    color: rgb(160, 160, 160);
+    transition: 0.3s all;
+}
+
+.itsof-logo {
+    width: 250px;
+    height: auto;
+    text-align: center; 
+}
+
+.circle {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.110);
+    border: rgb(235, 235, 235) 3px solid;
+
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+
+    cursor: pointer;
+    transition: all 500ms;
+
+    z-index: 99999;
+}
+
+.circle:hover {
+    border: rgb(220, 220, 220) 3px solid;
+}
+
+.circle i {
+    font-size: 25px;
+    position: relative;
+    top: 12px;
+    left: 14px;
+    color:rgb(200, 200, 200);
+}
+
+.home {
+    position: fixed;
+    bottom: 25px;
+    left: 30px;
+}
+
+.home i {
+    position: relative;
+    left: 10.8px;
+}
+
+.art-piece {
+    width: 1224px;
+    height: 720px;
+
+    position: relative;
+    top: 150px;
+    margin: auto;
+    margin-top: 70px;
+
+    transition: all 500ms ease-in-out;
+}
+
+.cover {
+    margin: 0 auto;
+    height: 360px;
+}
+
+.art-piece div {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+
+    cursor: default;
+}
+
+#leodiv {
+    position: absolute;
+    bottom: 0px;
+}
+
+.art-piece img {
+    height: 100px;
+    display: inline-block;
+}
+
+.art-piece .artist-name {
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 45px; 
+
+    position: relative;
+    bottom: 40px;
+    left: 25px;
+}
+
+.art-piece a{
+    display: inline-block;
+
+    position: absolute;
+    left: 130px;
+    top: 70px;
+
+    width: 150px;
+
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.art-piece .soc2 {
+    position: absolute;
+    width: 100%;
+}
+
+.art-piece a span{
+    color: white;
+    position: relative;
+    bottom: 2px;
+    font-size: 18px;
+}
+
+.art-piece a img {
+    height: 15px;
+    margin-right: 8px;
+}
+
+.cover div {
+    position: absolute;
+    bottom: 25px;
+}
+
+#leo-cover-itsof {
+    background: url("assets/ITSOF\ FINALS/Leo-Sapolsky-ITSOF-Cover.jpg") center center no-repeat;
+    background-size: contain;
+}
+
+#leo2 {
+    left: 270px;
+}
+
+#alisha-itsof {
+    background: url("assets/ITSOF\ FINALS/alisha liu piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#alisha2 {
+    left: 240px;
+}
+
+#austen-itsof {
+    background: url("assets/ITSOF\ FINALS/austen marr piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#austen2 {
+    left: 270px;
+}
+
+#austen-itsof {
+    background: url("assets/ITSOF\ FINALS/austen marr piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#austen2 {
+    left: 270px;
+}
+
+#bonnie-itsof {
+    background: url("assets/ITSOF\ FINALS/bonnie branson piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#bonnie2 {
+    left: 245px;
+}
+
+#caleri-itsof {
+    background: url("assets/ITSOF\ FINALS/caleri piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#cassie-itsof {
+    background: url("assets/ITSOF\ FINALS/cassie cav piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#cass2 {
+    left: 290px;
+}
+
+#claire-itsof {
+    background: url("assets/ITSOF\ FINALS/claire sun piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#claire2 {
+    left: 290px;
+}
+
+#courtney-itsof {
+    background: url("assets/ITSOF\ FINALS/courtney coffman piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#courtney2 {
+    left: 275px;
+}
+
+#diana-itsof {
+    background: url("assets/ITSOF\ FINALS/diana castillo piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#elena-itsof {
+    background: url("assets/ITSOF\ FINALS/elena piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#elena2 {
+    left: 240px;
+}
+
+#fatima-itsof {
+    background: url("assets/ITSOF\ FINALS/Fatima-Mandouh piece.jpg") center center no-repeat;
+    background-size: contain;
+}
+
+#fatima2 {
+    left: 295px;
+}
+
+#india-itsof {
+    background: url("assets/ITSOF\ FINALS/india piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#iroiise-itsof {
+    background: url("assets/ITSOF\ FINALS/iroiise piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#iroiise2 {
+    left: 215px;
+}
+
+#cindy-itsof {
+    background: url("assets/ITSOF\ FINALS/itsof cindy piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#cindy2 {
+    left: 275px;
+}
+
+#jellie-itsof {
+    background: url("assets/ITSOF\ FINALS/itsof-jellie beam piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#jellie2 {
+    left: 250px;
+}
+
+#leo2-itsof {
+    background: url("assets/ITSOF\ FINALS/itsof-Leo Sapolsky Piece.jpg") center center no-repeat;
+    background-size: contain;
+}
+
+#lyly-itsof {
+    background: url("assets/ITSOF\ FINALS/itsof-Lyly Hoang Piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#lynn-itsof {
+    background: url("assets/ITSOF\ FINALS/itsof-lynn piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#lynn2 {
+    left: 253px;
+}
+
+#mina-itsof {
+    background: url("assets/ITSOF\ FINALS/itsof-Mina Martinez Piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#mina2 {
+    left: 233px;
+}
+
+#mon-itsof {
+    background: url("assets/ITSOF\ FINALS/itsof-monwinvo piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#mon2 {
+    left: 252px;
+}
+
+#rinska-itsof {
+    background: url("assets/ITSOF\ FINALS/itsof-rinska piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#rinska2 {
+    left: 222px;
+}
+
+#sabi-itsof {
+    background: url("assets/ITSOF\ FINALS/itsof-sabimilia-piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#sabi2 {
+    left: 240px;
+}
+
+#tutank-itsof {
+    background: url("assets/ITSOF\ FINALS/itsof-tutank piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#tutank2 {
+    left: 240px;
+}
+
+#jade-itsof {
+    background: url("assets/ITSOF\ FINALS/jade piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#jade2 {
+    left: 240px;
+}
+
+#kimi-itsof {
+    background: url("assets/ITSOF\ FINALS/kimi piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#kimi2 {
+    left: 257px;
+}
+
+#laura-itsof {
+    background: url("assets/ITSOF\ FINALS/laura arce piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#laura2 {
+    left: 250px;
+}
+
+#leah-itsof {
+    background: url("assets/ITSOF\ FINALS/leah piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#leah2 {
+    left: 245px;
+}
+
+#lrz-itsof {
+    background: url("assets/ITSOF\ FINALS/lrz piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#lrz2 {
+    left: 260px;
+}
+
+#lualapin-itsof {
+    background: url("assets/ITSOF\ FINALS/lualapin piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#luala2 {
+    left: 230px;
+}
+
+#maddie-itsof {
+    background: url("assets/ITSOF\ FINALS/maddie piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#maddie2 {
+    left: 235px;
+}
+
+#mana-itsof {
+    background: url("assets/ITSOF\ FINALS/mana piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#mana2 {
+    left: 275px;
+}
+
+#mayu-itsof {
+    background: url("assets/ITSOF\ FINALS/mayu piece 2.png") center center no-repeat;
+    background-size: contain;
+}
+
+#mayu2 {
+    left: 275px;
+}
+
+#mio-itsof {
+    background: url("assets/ITSOF\ FINALS/mio piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#mio2 {
+    left: 240px;
+}
+
+#nada-itsof {
+    background: url("assets/ITSOF\ FINALS/nada piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#nada2 {
+    left: 233px;
+}
+
+#natalie-itsof {
+    background: url("assets/ITSOF\ FINALS/Natalie Arenzon piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#natalie2 {
+    left: 275px;
+}
+
+#nicole-itsof {
+    background: url("assets/ITSOF\ FINALS/Nicole Renski piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#nicole2 {
+    left: 263px;
+}
+
+#paperwick-itsof {
+    background: url("assets/ITSOF\ FINALS/paperwick piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#paperwick2 {
+    left: 250px;
+}
+
+#qv-itsof {
+    background: url("assets/ITSOF\ FINALS/quietvictories piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#qv2 {
+    left: 280px;
+}
+
+#rachel-itsof {
+    background: url("assets/ITSOF\ FINALS/rachel shen piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#rachel2 {
+    left: 240px;
+}
+
+#simone-itsof {
+    background: url("assets/ITSOF\ FINALS/simone piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#simone2 {
+    left: 285px;
+}
+
+#sockfinch-itsof {
+    background: url("assets/ITSOF\ FINALS/sockfinch piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#sockfinch2 {
+    left: 240px;
+}
+
+#tiffany-itsof {
+    background: url("assets/ITSOF\ FINALS/tiffany piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#tiffany2 {
+    left: 290px;
+}
+
+#tina-itsof {
+    background: url("assets/ITSOF\ FINALS/tina piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#tina2 {
+    left: 252px;
+}
+
+#tori-itsof {
+    background: url("assets/ITSOF\ FINALS/tori piece.png") center center no-repeat;
+    background-size: contain;
+}
+
+#tori2 {
+    left: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.credits-container {
+    position: relative;
+    top: 220px;
+    text-align: center;
+}
+
+.col {
+    display: inline-block;
+}
+
+.credits {
+    margin-bottom: 20px;
+    text-align: left;
+
+    position: relative;
+    left: 22px;
+    bottom: 10px;
+
+    cursor: default;
+}
+
+.left {
+    margin-right: 50px;
+}
+
+.preview {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.text-container {
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+    bottom: 10px;
+}
+
+.credits h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+
+.credits div .space {
+    margin-right: 10px;
+}
+
+.credits div a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.credits div span {
+    position: relative;
+    bottom: 4px;
+    color: black;    
+}
+
+.credits div img {
+    width: 18px;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+.pre-leo {
+    background-image: url("assets/itsof\ FINALS/Leo-Sapolsky-ITSOF-Cover preview.png");
+    background-size: contain;
+}
+
+.pre-jade {
+    background-image: url("assets/itsof\ FINALS/jade piece preview.png");
+    background-size: contain;
+}
+
+.pre-iroiise {
+    background-image: url("assets/itsof\ FINALS/iroiise piece preview.png");
+    background-size: contain;
+}
+
+.pre-simone {
+    background-image: url("assets/itsof\ FINALS/simone piece preview.png");
+    background-size: contain;
+}
+
+.pre-sabimilia {
+    background-image: url("assets/itsof\ FINALS/itsof-sabimilia-piece preview.png");
+    background-size: contain;
+}
+
+.pre-diana {
+    background-image: url("assets/itsof\ FINALS/diana castillo piece preview.png");
+    background-size: contain;
+}
+
+.pre-fatima {
+    background-image: url("assets/itsof\ FINALS/Fatima-Mandouh piece preview.png");
+    background-size: contain;
+}
+
+.pre-rachel {
+    background-image: url("assets/itsof\ FINALS/rachel shen piece preview.png");
+    background-size: contain;
+}
+
+.pre-nicole {
+    background-image: url("assets/itsof\ FINALS/Nicole Renski piece preview.png");
+    background-size: contain;
+}
+
+.pre-lynn {
+    background-image: url("assets/itsof\ FINALS/itsof-lynn piece preview.png");
+    background-size: contain;
+}
+
+.pre-elena {
+    background-image: url("assets/itsof\ FINALS/elena piece preview.png");
+    background-size: contain;
+}
+
+.pre-natalie {
+    background-image: url("assets/itsof\ FINALS/natalie arenzon piece preview.png");
+    background-size: contain;
+}
+
+.pre-cassie {
+    background-image: url("assets/itsof\ FINALS/cassie cav piece preview.png");
+    background-size: contain;
+}
+
+.pre-rinska {
+    background-image: url("assets/itsof\ FINALS/itsof-rinska piece preview.png");
+    background-size: contain;
+}
+
+.pre-lualapin {
+    background-image: url("assets/itsof\ FINALS/lualapin piece preview.png");
+    background-size: contain;
+}
+
+.pre-mina {
+    background-image: url("assets/itsof\ FINALS/itsof-Mina Martinez Piece preview.png");
+    background-size: contain;
+}
+
+.pre-tori {
+    background-image: url("assets/itsof\ FINALS/tori piece preview.png");
+    background-size: contain;
+}
+
+.pre-tina {
+    background-image: url("assets/itsof\ FINALS/tina piece preview.png");
+    background-size: contain;
+}
+
+.pre-kimi {
+    background-image: url("assets/itsof\ FINALS/kimi piece preview.png");
+    background-size: contain;
+}
+
+.pre-leo2 {
+    background-image: url("assets/itsof\ FINALS/itsof-Leo Sapolsky Piece preview.png");
+    background-size: contain;
+}
+
+.pre-austen {
+    background-image: url("assets/itsof\ FINALS/austen marr piece preview.png");
+    background-size: contain;
+}
+
+.pre-caleri {
+    background-image: url("assets/itsof\ FINALS/caleri piece preview.png");
+    background-size: contain;
+}
+
+.pre-lrz {
+    background-image: url("assets/itsof\ FINALS/lrz piece preview.png");
+    background-size: contain;
+}
+
+.pre-maddie {
+    background-image: url("assets/itsof\ FINALS/maddie piece preview.png");
+    background-size: contain;
+}
+
+.pre-mayu {
+    background-image: url("assets/itsof\ FINALS/mayu piece preview.png");
+    background-size: contain;
+}
+
+.pre-qv {
+    background-image: url("assets/itsof\ FINALS/quietvictories piece preview.png");
+    background-size: contain;
+}
+
+.pre-leah {
+    background-image: url("assets/itsof\ FINALS/leah piece preview.png");
+    background-size: contain;
+}
+
+.pre-mon {
+    background-image: url("assets/itsof\ FINALS/itsof-monwinvo piece preview.png");
+    background-size: contain;
+}
+
+.pre-cindy {
+    background-image: url("assets/itsof\ FINALS/itsof cindy piece preview.png");
+    background-size: contain;
+}
+
+.pre-jellie {
+    background-image: url("assets/itsof\ FINALS/itsof-jellie beam piece preview.png");
+    background-size: contain;
+}
+
+.pre-laura {
+    background-image: url("assets/itsof\ FINALS/laura arce piece preview.png");
+    background-size: contain;
+}
+
+.pre-bonnie {
+    background-image: url("assets/itsof\ FINALS/bonnie branson piece preview.png");
+    background-size: contain;
+}
+
+.pre-paperwick {
+    background-image: url("assets/itsof\ FINALS/paperwick piece preview.png");
+    background-size: contain;
+}
+
+.pre-zaccr {
+    background-image: url("assets/itsof\ FINALS/itsof-Lyly Hoang Piece preview.png");
+    background-size: contain;
+}
+
+.pre-courtney {
+    background-image: url("assets/itsof\ FINALS/courtney coffman piece preview.png");
+    background-size: contain;
+}
+
+.pre-sockfinch {
+    background-image: url("assets/itsof\ FINALS/sockfinch piece preview.png");
+    background-size: contain;
+}
+
+.pre-tiffany {
+    background-image: url("assets/itsof\ FINALS/Tiffany piece preview.png");
+    background-size: contain;
+}
+
+.pre-nada {
+    background-image: url("assets/itsof\ FINALS/nada piece preview.png");
+    background-size: contain;
+}
+
+.pre-alisha {
+    background-image: url("assets/itsof\ FINALS/alisha liu piece preview.png");
+    background-size: contain;
+}
+
+.pre-tutank {
+    background-image: url("assets/itsof\ FINALS/itsof-tutank piece preview.png");
+    background-size: contain;
+}
+
+.pre-india {
+    background-image: url("assets/itsof\ FINALS/india piece preview.png");
+    background-size: contain;
+}
+
+.pre-claire {
+    background-image: url("assets/itsof\ FINALS/claire sun piece preview.png");
+    background-size: contain;
+}
+
+.pre-mio {
+    background-image: url("assets/itsof\ FINALS/mio piece preview.png");
+    background-size: contain;
+}
+
+.pre-mana {
+    background-image: url("assets/itsof\ FINALS/mana piece preview.png");
+    background-size: contain;
+}
+
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 265px;
+}
+
+.download {
+    text-align: center;
+    color:rgb(150, 150, 150);
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    top: 260px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.download:hover {
+    color:rgb(160, 160, 160);
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+
+    /* background: url(assets/jenna\ vincent.png) center bottom no-repeat; */
+
+    position: relative;
+    top: 310px;
+
+    text-align: center;
+}
+
+footer .cat-banner{
+    width: auto;
+    height: 90px;
+    
+    position: relative; 
+    top: 18px;
+
+    cursor: pointer;
+}
+
+.art-piece div {
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+
+.art-piece:hover div {
+    opacity: 1;
+}
+
+.art-piece div {
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+
+.bird {
+    text-align: center;
+    position: relative;
+    top: 235px;
+}
+
+.bird h2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 10px 0px 0px 0px;
+}
+
+.bird p {
+    font-size: 18px;
+    text-transform: lowercase;
+    margin: 10px 0px 15px 0px;
+}
+
+.bird img {
+    width: 110px;
+}
+
+.bird div a {
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 10px;;
+}
+
+.bird div span {
+    position: relative;
+    bottom: 4px;
+    color: black;    
+}
+
+.bird div img {
+    width: 18px;
+    margin-right: 8px;
+}
+
+@media only screen and (max-width: 1350px){
+    
+    .art-piece {
+        top: 140px;
+        width: 885px;
+        height: 520px;
+        margin-top: 50px;
+    }
+
+    .cover {
+        height: 264px;
+        margin-top: 0;
+        bottom: 50px;
+    }
+
+    .art-piece div {
+        left: 20px;
+    }
+
+    .art-piece .artist-name {
+        font-size: 30px; 
+    }
+
+    .credits {
+        position: relative;
+        bottom: 40px;
+    }
+
+    .credits h2 {
+        font-size: 23px;
+    }
+    
+    .credits div a {
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    .credits div img {
+        width: 15px;
+    }
+
+    .preview {
+        width: 80px;
+        height: 80px;
+    }
+
+    .left {
+        margin-right: 30px;
+    }
+
+    .text-container {
+        position: relative;
+        bottom: 4px;
+    }
+
+    h1 {
+        top: 180px;
+    }
+
+    footer {
+        top: 210px;
+    }
+
+    .download {
+        position: relative;
+        top: 180px;
+    }
+    
+}
+
+@media only screen and (max-width: 1170px){
+
+    .art-piece {
+        top: 140px;
+        width: 716px;
+        height: 420px;
+        margin-top: 45px;
+    }
+
+    .art-piece div {
+        left: 20px;
+    }
+
+    .art-piece .artist-name {
+        font-size: 30px; 
+    }
+
+    .cover {
+        height: 210px;
+        margin-top: 0;
+        bottom: 50px;
+    }
+
+    .col {
+        display: block;
+    }
+   
+    .credits-container {
+        position: relative;
+        top: 220px;
+        text-align: center;
+    }
+
+    .col {
+        display: inline-block;
+    }
+
+    .credits {
+        margin-bottom: 20px;
+        text-align: left;
+
+        position: relative;
+        left: 22px;
+    }
+
+    .left {
+        margin-right: 0px;
+    }
+
+    .preview {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+    }
+
+    .text-container {
+        display: inline-block;
+        margin-left: 15px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .credits h2 {
+        font-size: 30px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        font-weight: 800;
+    }
+
+    .credits div .space {
+        margin-right: 10px;
+    }
+
+    .credits div a {
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .credits div span {
+        position: relative;
+        bottom: 4px;
+        color: black;    
+    }
+
+    .credits div img {
+        width: 18px;
+        margin-right: 8px;
+    }
+
+    h1 {
+        position: relative;
+        top: 175px;
+    }
+
+    .download {
+        position: relative;
+        top: 170px;
+    }
+
+    footer {
+        position: relative;
+        top: 200px;
+    }
+}
+
+@media only screen and (max-width: 1050px){
+
+    .art-piece {
+        top: 140px;
+        width: 630px;
+        height: 370px;
+        margin-top: 45px;
+    }
+
+    .cover {
+        height: 186px;
+        margin-top: 0;
+        bottom: 50px;
+    }
+
+    .art-piece div {
+        left: 15px;
+        bottom: 5px;
+        margin-right: 0px;
+    }
+
+    .art-piece .artist-name {
+        font-size: 20px; 
+    }
+    
+    .credits-container {
+        position: relative;
+        top: 220px;
+        text-align: center;
+    }
+
+    .credits {
+        position: relative;
+        bottom: 45px;
+    }
+
+    .credits h2 {
+        font-size: 23px;
+    }
+    
+    .credits div a {
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    .credits div img {
+        width: 15px;
+    }
+
+    .preview {
+        width: 80px;
+        height: 80px;
+    }
+
+    .text-container {
+        position: relative;
+        bottom: 4px;
+    }
+
+    .col {
+        display: inline-block;
+    }
+
+    .left {
+        margin-right: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 840px){
+
+    .itsof-logo {
+        width: 200px;
+    }
+
+    .art-piece {
+        top: 135px;
+        width: 460px;
+        height: 270px;
+        margin-top: 30px;
+    }
+
+    .cover {
+        height: 138px;
+        margin-top: 0;
+        bottom: 50px;
+    }
+
+    .art-piece div {
+        left: 20px;
+        bottom: 5px;
+    }
+
+    .credits {
+        position: relative;
+        top: -65px;
+    }
+
+    .credits h2 {
+        font-size: 23px;
+    }
+    
+    .credits div a {
+        font-size: 11px;
+        text-decoration: none;
+    }
+
+    .art-piece .soc2 {
+        position: absolute;
+        width: 160px;
+    }
+
+    .art-piece a span {
+        font-size: 13px; 
+    }
+
+    .art-piece a img {
+        width: 14px;
+        height: auto;
+    }
+
+    .credits {
+        bottom: 90px;
+    }
+
+    .download {
+        top: 130px;
+        font-size: 18px;
+    }
+
+    h1 {
+        top: 140px;
+        font-size: 22px;
+    }
+
+    footer {
+        top: 135px;
+    }
+
+    #leo2 {
+        left: 240px;
+    }
+
+    #iroiise2 {
+        left: 200px;
+    }
+
+    #simone2 {
+        left: 250px;
+    }
+    
+    #sabi2 {
+        left: 215px;
+    }
+
+    #fatima2 {
+        left: 253px;
+    }
+
+    #rachel2 {
+        left: 215px;
+    }
+
+    #alisha2 {
+        left: 220px;
+    }
+
+    #austen2 {
+        left: 240px;
+    }
+
+    #bonnie2 {
+        left: 223px;
+    }
+
+    #cass2 {
+        left: 255px;
+    }
+
+    #claire2 {
+        left: 230px;
+    }
+
+    #courtney2 {
+        left: 245px;
+    }
+
+    #rinska2 {
+        left: 205px;
+    }
+
+    #elena2 {
+        left: 215px;
+    }
+
+    #cindy2 {
+        left: 245px;
+    }
+
+    #jellie2 {
+        left: 223px;
+    }
+
+    #lynn2 {
+        left: 228px;
+    }
+
+    #mina2 {
+        left: 215px;
+    }
+
+    #mon2 {
+        left: 222px;
+    }
+
+    #tutank2 {
+        left: 220px;
+    }
+
+    #kimi2 {
+        left: 230px;
+    }
+
+    #laura2 {
+        left: 223px;
+    }
+
+    #leah2 {
+        left: 220px;
+    }
+
+    #lrz2 {
+        left: 230px;
+    }
+    
+    #luala2 {
+        left: 212px;
+    }
+
+    #maddie2 {
+        left: 215px;
+    }
+
+    #mana2 {
+        left: 240px;
+    }
+
+    #mayu2 {
+        left: 245px;
+    }
+    
+    #mio2 {
+        left: 220px;
+    }
+
+    #nada2 {
+        left: 215px;
+    }
+
+    #natalie2 {
+        left: 240px;
+    }
+
+    #nicole2 {
+        left: 235px;
+    }
+    
+    #paperwick2 {
+        left: 225px;
+    }
+
+    #qv2 {
+        left: 250px;
+    }
+
+    #sockfinch2 {
+        left: 220px;
+    }
+
+    #tiffany2 {
+        left: 255px;
+    }
+
+    #tina2 {
+        left: 225px;
+    }
+
+    #tori2 {
+        left: 218px;
+    }
+}

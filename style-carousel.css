@@ -12,7 +12,7 @@ html, body {
 
 .carousel {
   position: relative;
-  top: 845px;
+  top: 446px;
   background-color: white;
 }
 
@@ -106,9 +106,9 @@ html, body {
   background-image: url(assets/nadaskii.png);
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1400px){
   .carousel {
-    top: 655px;
+    top: 155px;
   }
 
   .carousel-cell {
@@ -124,27 +124,9 @@ html, body {
   }
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1016px){
   .carousel {
-    top: 515px;
-  }
-
-  .carousel-cell {
-    width: 400px;
-    height: 400px;
-    background-size: 400px 400px;
-  }
-
-  .carousel-cell h3 {
-    position: relative;
-    top: 390px;
-    font-size: 30px;
-  }
-}
-
-@media only screen and (max-width: 720px){
-  .carousel {
-    top: 400px;
+    top: 105px;
   }
 
   .carousel-cell {
@@ -160,3 +142,11 @@ html, body {
     top: 340px;
   }
 }
+
+@media only screen and (max-width: 750px){
+  .carousel {
+    top: 70px;
+  }
+}
+
+

@@ -31,15 +31,57 @@ html, body {
     text-align: center; 
 }
 
+.circle {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.110);
+    border: rgb(235, 235, 235) 3px solid;
+
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+
+    cursor: pointer;
+    transition: all 500ms;
+
+    z-index: 99999;
+}
+
+.circle:hover {
+    border: rgb(220, 220, 220) 3px solid;
+}
+
+.circle i {
+    font-size: 25px;
+    position: relative;
+    top: 12px;
+    left: 14px;
+    color:rgb(200, 200, 200);
+}
+
+.home {
+    position: fixed;
+    bottom: 25px;
+    left: 30px;
+}
+
+.home i {
+    position: relative;
+    left: 10.8px;
+}
+
 .art-piece {
     width: 1224px;
     height: 720px;
-    background-color: black;
 
     position: relative;
     top: 150px;
     margin: auto;
     margin-top: 70px;
+
+    transition: all 500ms ease-in-out;
 }
 
 .cover {
@@ -434,6 +476,9 @@ p {
 
     position: relative;
     left: 22px;
+    bottom: 10px;
+
+    cursor: default;
 }
 
 .left {
@@ -655,15 +700,31 @@ p {
     background-size: contain;
 }
 
-.pre-bird {
-    background: url("assets/birdeatfish-doodle.png") center center no-repeat;
+.pre-saik {
+    background: url("assets/fitz-doodle.png") center center no-repeat;
     background-size: contain;
 }
 
 h1 {
     text-align: center;
     position: relative;
-    top: 250px;
+    top: 220px;
+}
+
+.download {
+    text-align: center;
+    color:rgb(150, 150, 150);
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    top: 210px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.download:hover {
+    color:rgb(160, 160, 160);
 }
 
 footer {
@@ -689,13 +750,65 @@ footer .cat-banner{
     cursor: pointer;
 }
 
+.art-piece div {
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+
+.art-piece:hover div {
+    opacity: 1;
+}
+
+.art-piece div {
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+
+.bird {
+    text-align: center;
+    position: relative;
+    top: 245px;
+}
+
+.bird h2 {
+    font-size: 20px;
+    margin: 10px 0px 0px 0px;
+}
+
+.bird p {
+    font-size: 18px;
+    text-transform: lowercase;
+    margin: 10px 0px 15px 0px;
+}
+
+.bird img {
+    width: 110px;
+}
+
+.bird div a {
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 10px;;
+}
+
+.bird div span {
+    position: relative;
+    bottom: 4px;
+    color: black;    
+}
+
+.bird div img {
+    width: 18px;
+    margin-right: 8px;
+}
+
 @media only screen and (max-width: 1350px){
     
     .art-piece {
         top: 140px;
-        width: 1024px;
+        width: 885px;
         height: 520px;
-        margin-top: 45px;
+        margin-top: 50px;
     }
 
     .cover {
@@ -705,23 +818,28 @@ footer .cat-banner{
     }
 
     .art-piece div {
-        left: 125px;
+        left: 20px;
     }
 
     .art-piece .artist-name {
         font-size: 30px; 
     }
 
-    .credits h2 {
+    .credits {
+        position: relative;
+        bottom: 40px;
+    }
+
+    .credits h2, .bird h2 {
         font-size: 23px;
     }
     
-    .credits div a {
+    .credits div a, .bird div a, .bird p {
         font-size: 15px;
         text-decoration: none;
     }
 
-    .credits div img {
+    .credits div img, .bird div img {
         width: 15px;
     }
 
@@ -739,12 +857,26 @@ footer .cat-banner{
         bottom: 4px;
     }
 
+    .bird {
+        top: 210px;
+    }
+
+    .bird img {
+        width: 90px;
+        height: auto;
+    }
+
     h1 {
-        top: 225px;
+        top: 195px;
     }
 
     footer {
         top: 250px;
+    }
+
+    .download {
+        position: relative;
+        top: 190px;
     }
     
 }
@@ -753,9 +885,17 @@ footer .cat-banner{
 
     .art-piece {
         top: 140px;
-        width: 924px;
+        width: 716px;
         height: 420px;
         margin-top: 45px;
+    }
+
+    .art-piece div {
+        left: 20px;
+    }
+
+    .art-piece .artist-name {
+        font-size: 30px; 
     }
 
     .cover {
@@ -829,13 +969,32 @@ footer .cat-banner{
         width: 18px;
         margin-right: 8px;
     }
+
+    .bird {
+        top: 180px;
+    }
+
+    h1 {
+        position: relative;
+        top: 175px;
+    }
+
+    .download {
+        position: relative;
+        top: 170px;
+    }
+
+    footer {
+        position: relative;
+        top: 225px;
+    }
 }
 
 @media only screen and (max-width: 1050px){
 
     .art-piece {
         top: 140px;
-        width: 774px;
+        width: 630px;
         height: 370px;
         margin-top: 45px;
     }
@@ -860,6 +1019,11 @@ footer .cat-banner{
         position: relative;
         top: 220px;
         text-align: center;
+    }
+
+    .credits {
+        position: relative;
+        bottom: 45px;
     }
 
     .credits h2 {
@@ -903,20 +1067,25 @@ footer .cat-banner{
 
     .art-piece {
         top: 135px;
-        width: 400px;
+        width: 460px;
         height: 270px;
-        margin-top: 5px;
+        margin-top: 30px;
     }
 
     .cover {
-        height: 170px;
+        height: 190px;
         margin-top: 0;
         bottom: 50px;
     }
 
     .art-piece div {
-        left: 10px;
-        bottom: 20px;
+        left: 20px;
+        bottom: 5px;
+    }
+
+    .credits {
+        position: relative;
+        top: -65px;
     }
 
     .credits h2 {
@@ -946,13 +1115,26 @@ footer .cat-banner{
         bottom: 90px;
     }
 
+    .download {
+        top: 130px;
+        font-size: 18px;
+    }
+
     h1 {
-        top: 120px;
-        font-size: 23px;
+        top: 140px;
+        font-size: 22px;
+    }
+
+    .bird {
+        top: 140px;
+    }
+
+    .bird img {
+        width: 80px;
     }
 
     footer {
-        top: 135px;
+        top: 165px;
     }
 
     #cia2 {
